@@ -24,8 +24,8 @@ export default {
   props: {
     codePenId: {
       type: String,
-      default: 'xJKRjY'
-    }
-  }
+      default: 'xJKRjY',
+    },
+  },
 }
 </script>

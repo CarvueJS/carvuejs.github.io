@@ -2,23 +2,32 @@
 
   <div class="markdown-body">
 
-    <testContent />
+    <component v-bind:is="currentContentPage" />
 
   </div>
 </template>
 
 <script>
 import VueMarkdown from 'vue-markdown'
-import testContent from '../../content/testA.md'
 import 'highlight.js/styles/atom-one-dark.css'
 import 'github-markdown-css' // eslint-disable-line
+import Vue from 'vue'
+
+const dynamicContent = file => () => import(`../../content/${file}.md`)
 
 export default {
   name: 'Content',
   components: {
     VueMarkdown,
-    testContent
-  }
+  },
+  computed: {
+    currentContentPage: function () {
+      const pageName = this.$route.params.name
+      const component = dynamicContent(pageName)
+      if (component) Vue.component(pageName, component)
+      return pageName
+    },
+  },
 }
 </script>
 

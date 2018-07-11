@@ -5,8 +5,7 @@
         <SliderMenu />
       </ca-flex>
       <ca-flex col="xs12 sm10 md10 lg10 xl10" class="content">
-        <!-- <CodeSnippet/> -->
-        <Content/>
+        <router-view/>
       </ca-flex>
     </ca-layout>
   </div>
@@ -15,19 +14,17 @@
 <script>
 // @ is an alias to /src
 import SliderMenu from '@/components/SlideMenu.vue'
-import Content from '@/components/Content.vue'
 import CodeSnippet from '@/components/CodeSnippet.vue'
 
 export default {
   name: 'home',
   components: {
     SliderMenu,
-    Content,
-    CodeSnippet
+    CodeSnippet,
   },
   data: () => ({
-    model: 100
-  })
+    model: 100,
+  }),
 }
 </script>
 

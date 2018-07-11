@@ -10,9 +10,9 @@ module.exports = {
       .loader('vue-markdown-loader/lib/markdown-compiler')
       .tap(options => {
         return {
-          raw: true
+          raw: true,
         }
       })
       .end()
-  }
+  },
 }
