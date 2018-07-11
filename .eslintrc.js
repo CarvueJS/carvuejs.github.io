@@ -19,6 +19,7 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never'
     }],
+    'comma-dangle': ["error", "always"],
     'max-len': ['error', 
       { 'code': 200 }
     ],
