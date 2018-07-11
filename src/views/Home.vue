@@ -1,10 +1,10 @@
 <template>
   <div>
     <ca-layout wrap>
-      <ca-flex col="xs2 sm2 md2 lg2 xl2" class="slideMenu">
+      <ca-flex col="xs3 sm3 md3 lg3 xl3" class="slideMenu">
         <SliderMenu />
       </ca-flex>
-      <ca-flex col="xs12 sm10 md10 lg10 xl10" class="content">
+      <ca-flex col="xs9 sm9 md9 lg9 xl9" class="content">
         <router-view/>
       </ca-flex>
     </ca-layout>
@@ -28,14 +28,17 @@ export default {
 }
 </script>
 
-<style scroped>
+<style scoped>
 .slideMenu {
   max-height: 100vh;
   overflow: scroll;
+  border-right: 2px solid #f5f7fa;
+  background: #fff
 }
 
 .content {
   max-height: 100vh;
   overflow: scroll;
+  background: #fff
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
 
   <div class="markdown-body">
-
-    <component v-bind:is="currentContentPage" />
-
+    <keep-alive>
+      <component v-bind:is="currentContentPage" />
+    </keep-alive>
   </div>
 </template>
 

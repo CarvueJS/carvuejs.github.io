@@ -1,40 +1,19 @@
 <template>
+  <div class="slideMenu">
+    <p class="slideMenu__title">CarvueJS</p>
+    <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
+   <ca-search class="slideMenu__search"></ca-search>
    <ca-accordion>
-      <ca-accordion-item title="Getting Started">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <div class="slideMenu__item">GET STARTED</div>
+      <ca-accordion-item title="Components" active>
+        <ul class="slideMenu__item__list">
+          <li><router-link to="test">Test</router-link></li>
+          <li><router-link to="testA">TestA</router-link></li>
+        </ul>
       </ca-accordion-item>
-      <ca-accordion-item title="Components">
-        <ca-list>
-          <ca-list-item>
-            Ordered List level 1
-          </ca-list-item>
-          <ca-list-item>
-            Ordered List level 2
-          </ca-list-item>
-          <ca-list-item>
-            Ordered List level 3
-          </ca-list-item>
-        </ca-list>
-      </ca-accordion-item>
-      <ca-accordion-item title="Dummy">
-      </ca-accordion-item>
-      <ca-accordion-item title="Dummy">
-      </ca-accordion-item>
-      <ca-accordion-item title="Dummy">
-      </ca-accordion-item>
-      <ca-accordion-item title="Dummy">
-      </ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
-      <ca-accordion-item title="Dummy"></ca-accordion-item>
+      <div class="slideMenu__item">ABOUT US</div>
     </ca-accordion>
+    </div>
 </template>
 
 <script>
@@ -42,3 +21,38 @@ export default {
   name: 'slideMenu',
 }
 </script>
+
+<style scoped>
+.slideMenu__title {
+  font-size: 20px;
+}
+
+.slideMenu__subTitle {
+  font-size: 12px;
+}
+
+.slideMenu__search {
+  margin: 20px 0;
+}
+
+.slideMenu__item {
+  margin: 10px 7px;
+}
+
+.slideMenu {
+  padding: 30px 15px;
+}
+
+.slideMenu__item__list li {
+  margin: 0 0 12px 10px;
+}
+
+/* overwrite the default*/
+.bx--accordion__item {
+  border-top: none;
+}
+
+.bx--accordion__item:last-child {
+  border-bottom: none;
+}
+</style>
