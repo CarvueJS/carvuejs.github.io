@@ -7,8 +7,7 @@
       <div class="slideMenu__item">GET STARTED</div>
       <ca-accordion-item title="Components" active>
         <ul class="slideMenu__item__list">
-          <li><router-link to="test">Test</router-link></li>
-          <li><router-link to="testA">TestA</router-link></li>
+          <li v-for="page in pages" :key="page"><router-link :to="page">{{page}}</router-link></li>
         </ul>
       </ca-accordion-item>
       <div class="slideMenu__item">ABOUT US</div>
@@ -19,6 +18,16 @@
 <script>
 export default {
   name: 'slideMenu',
+  data: () => ({
+    pages: [
+      'Accordion',
+      'Breadcrumb',
+      'Button',
+      'Checkbox',
+      'CodeSnippet',
+      'contentSwitcher',
+    ],
+  }),
 }
 </script>
 

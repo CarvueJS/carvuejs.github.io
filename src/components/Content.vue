@@ -40,6 +40,11 @@ export default {
     padding: 45px;
   }
 
+  .markdown-body h1{
+    font-size: 3.125rem;
+    border-bottom: 1px solid #3057d5
+  }
+
   .custom {
     color: green;
     font-size: 20px;
