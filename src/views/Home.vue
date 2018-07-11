@@ -14,12 +14,12 @@
 
 <script>
 // @ is an alias to /src
-import SliderMenu from "@/components/SlideMenu.vue";
-import Content from "@/components/Content.vue";
-import CodeSnippet from "@/components/CodeSnippet.vue";
+import SliderMenu from '@/components/SlideMenu.vue'
+import Content from '@/components/Content.vue'
+import CodeSnippet from '@/components/CodeSnippet.vue'
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     SliderMenu,
     Content,
@@ -28,7 +28,7 @@ export default {
   data: () => ({
     model: 100
   })
-};
+}
 </script>
 
 <style scroped>

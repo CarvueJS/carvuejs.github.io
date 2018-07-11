@@ -39,6 +39,6 @@
 
 <script>
 export default {
-  name: "slideMenu"
-};
+  name: 'slideMenu'
+}
 </script>
