@@ -1,5 +1,4 @@
 <template>
-
   <div class="markdown-body">
     <keep-alive>
       <component v-bind:is="currentContentPage" />
@@ -36,13 +35,13 @@ export default {
     box-sizing: border-box;
     min-width: 200px;
     max-width: 980px;
-    margin: 0 auto;
+    margin: -150px auto 0 auto;
     padding: 45px;
   }
 
   .markdown-body h1{
     font-size: 3.125rem;
-    border-bottom: 1px solid #3057d5
+    border-bottom: none;
   }
 
   .custom {

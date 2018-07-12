@@ -5,7 +5,17 @@
         <SliderMenu />
       </ca-flex>
       <ca-flex col="xs9 sm9 md9 lg9 xl9" class="content">
+        <header class="pageHeader"></header>
         <router-view/>
+        <footer class="pageFooter">
+          <p>Vanilla Components version 9.0.15</p>
+
+          <p>React Components version 6.5.2</p>
+
+          <p>Website last updated on June 20, 2018 at 12:00 AM</p>
+
+          <p>MIT</p>
+        </footer>
       </ca-flex>
     </ca-layout>
   </div>
@@ -39,6 +49,22 @@ export default {
 .content {
   max-height: 100vh;
   overflow: scroll;
-  background: #fff
+  background: #fff;
+}
+
+.pageFooter {
+  background: #f4f7fb;
+  padding: 25px 100px;
+}
+
+.pageFooter p {
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.pageHeader {
+  height: 150px;
+  background: #f4f7fb;
+  border-bottom: 1px solid #3057d5
 }
 </style>
