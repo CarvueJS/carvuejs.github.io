@@ -2,7 +2,7 @@
   <div class="slideMenu">
     <p class="slideMenu__title">CarvueJS</p>
     <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
-    <ca-search class="slideMenu__search"></ca-search>
+    <search></search>
     <ca-accordion>
       <div class="slideMenu__item">GET STARTED</div>
       <ca-accordion-item title="Components" active>
@@ -16,8 +16,13 @@
 </template>
 
 <script>
+import search from './Search.vue'
+
 export default {
   name: 'slideMenu',
+  components: {
+    search,
+  },
   data: () => ({
     // TODO: generator the array automatically
     pages: [
@@ -39,10 +44,6 @@ export default {
 
 .slideMenu__subTitle {
   font-size: 12px;
-}
-
-.slideMenu__search {
-  margin: 20px 0;
 }
 
 .slideMenu__item {
