@@ -2,8 +2,8 @@
   <div class="slideMenu">
     <p class="slideMenu__title">CarvueJS</p>
     <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
-   <ca-search class="slideMenu__search"></ca-search>
-   <ca-accordion>
+    <ca-search class="slideMenu__search"></ca-search>
+    <ca-accordion>
       <div class="slideMenu__item">GET STARTED</div>
       <ca-accordion-item title="Components" active>
         <ul class="slideMenu__item__list">
@@ -12,13 +12,14 @@
       </ca-accordion-item>
       <div class="slideMenu__item">ABOUT US</div>
     </ca-accordion>
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'slideMenu',
   data: () => ({
+    // TODO: generator the array automatically
     pages: [
       'Accordion',
       'Breadcrumb',
