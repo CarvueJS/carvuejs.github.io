@@ -1,8 +1,8 @@
 <template>
-  <iframe height="265"
+  <iframe height="500"
   scrolling="no"
   :title="codePenId"
-  :src='`//codepen.io/nicholaslee119/embed/${codePenId}/?height=265&theme-id=dark&default-tab=result&embed-version=2`'
+  :src='`//codepen.io/nicholaslee119/embed/${codePenId}/?height=482&theme-id=light&default-tab=result&embed-version=2`'
   frameborder="no"
   allowtransparency="true"
   allowfullscreen="true"
