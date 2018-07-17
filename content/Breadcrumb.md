@@ -11,18 +11,18 @@
 
 ### ca-breadcrumb props
 
-| Name | Type | default
-| ------ | ----------- | ----|
-| noSlash   | Boolean | false |
+| Name | Type | default | required |
+| ------ | ----------- | ----| ---- |
+| noSlash   | Boolean | false | no |
 
 ### ca-breadcrumb slot
 
-| Name | Type |
-| ------ | ----------- | 
-| default   | ca-breadcrumb-item |
+| Name | Type | required |
+| ------ | ----------- |  ---- |
+| default   | ca-breadcrumb-item | yes |
 
 ### ca-breadcrumb-item
 
-| Name | Type |
-| ------ | ----------- | 
-| default   | any |
+| Name | Type | required |
+| ------ | ----------- | ----|
+| default   | any | yes |

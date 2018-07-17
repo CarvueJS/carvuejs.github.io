@@ -10,16 +10,16 @@
 
 ### ca-button props
 
-| Name | Type | default
-| ------ | ----------- | ----|
-| primary   | Boolean | false |
-| secondary   | Boolean | false |
-| danger   | Boolean | false |
-| disable   | Boolean | false |
-| icon   | String | '' |
+| Name | Type | default | required |
+| ------ | ----------- | ----| --- |
+| primary   | Boolean | false | no |
+| secondary   | Boolean | false | no |
+| danger   | Boolean | false | no |
+| disable   | Boolean | false | no |
+| icon   | String | '' | no |
 
 ### ca-button slot
 
-| Name | Type |
-| ------ | ----------- | 
-| default   | any |
+| Name | Type | required |
+| ------ | ----------- | ---- |
+| default   | any | no |

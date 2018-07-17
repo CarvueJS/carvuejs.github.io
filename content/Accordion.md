@@ -12,12 +12,12 @@
 
 ### ca-accordion slot
 
-| Name | Type |
-| ------ | ----------- | 
-| default   | ca-accordion-item |
+| Name | Type | required |
+| ------ | ----------- | ------ |
+| default   | ca-accordion-item | no | 
 
 ### ca-accordion-item
 
-| Name | Type |
-| ------ | ----------- | 
-| default   | any |
+| Name | Type | required |
+| ------ | ----------- | ------ |
+| default   | any | no |
