@@ -12,5 +12,9 @@ export default new Router({
       name: 'home',
       component: Content,
     },
+    {
+      path: '*',
+      redirect: '/component/Accordion',
+    },
   ],
 })
