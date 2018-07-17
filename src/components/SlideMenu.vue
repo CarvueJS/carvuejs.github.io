@@ -16,6 +16,9 @@
 </template>
 
 <script>
+// eslint-disable-next-line
+import { getNames } from '../utils/contentIndex'
+
 import search from './Search.vue'
 
 export default {
@@ -24,16 +27,12 @@ export default {
     search,
   },
   data: () => ({
-    // TODO: generator the array automatically
-    pages: [
-      'Accordion',
-      'Breadcrumb',
-      'Button',
-      'Checkbox',
-      'CodeSnippet',
-      'contentSwitcher',
-    ],
   }),
+  computed: {
+    pages: function () {
+      return getNames()
+    },
+  },
 }
 </script>
 

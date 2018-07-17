@@ -3,78 +3,57 @@
     <ca-search class="search__input" v-model="searchInput"></ca-search>
     <ca-data-table class="search__result">
     <tbody>
-      <tr>
-        <th>
-          itemA
-        </th>
-        <th>
-          itemB
-        </th>
-      </tr>
-      <tr>
-        <th>
-          itemE
-        </th>
-        <th>
-          itemD
-        </th>
-      </tr>
+      <tr v-for='(resultItem, index) in searchResult' :key='index'><th>
+          {{resultItem.name}}
+      </th></tr>
     </tbody>
   </ca-data-table>
   </div>
 </template>
 <script>
-/* eslint-disable */
+// eslint-disable-next-line
+import { getList, } from '../utils/contentIndex'
 import Fuse from 'fuse.js'
 
 export default {
   name: 'search',
   data: () => ({
     searchInput: '',
+    searchResult: [ 'Nothing matches', ],
     fuse: null,
-    // TODO: Generator Those data
-    books: [{
-      'ISBN': 'A',
-      'title': "Old Man's War",
-      'author': 'John Scalzi',
-    }, {
-      'ISBN': 'B',
-      'title': 'The Lock Artist',
-      'author': 'Steve Hamilton',
-    },
-    ],
-    options:  {
+    options: {
+      matchAllTokens: true,
       keys: [{
         name: 'title',
-        weight: 0.3
+        weight: 0.3,
       }, {
         name: 'author',
-        weight: 0.7
-      }]
+        weight: 0.7,
+      }, ],
     },
     elementInput: null,
     elementResult: null,
   }),
-  beforeMount() {
-    this.fuse = new Fuse(this.books, this.options)
+  watch: {
+    searchInput: function (newValue) {
+      this.searchResult = this.fuse.search(newValue)
+    },
   },
-  mounted() {
+  beforeMount () {
+    this.fuse = new Fuse(getList(), this.options)
+  },
+  mounted () {
     // add focus event API to ca-search
-    this.elementInput = document.querySelector('.search__input');
-    this.elementResult = document.querySelector('.search__result');
-    this.elementInput.addEventListener('focus', this.toggleResult, true);
-    this.elementInput.addEventListener('blur', this.toggleResult, true);
+    this.elementInput = document.querySelector('.search__input')
+    this.elementResult = document.querySelector('.search__result')
+    this.elementInput.addEventListener('focus', this.toggleResult, true)
+    this.elementInput.addEventListener('blur', this.toggleResult, true)
   },
   methods: {
-    toggleResult() {
+    toggleResult () {
       this.elementResult.style.visibility = this.elementResult.style.visibility === 'visible' ? 'hidden' : 'visible'
     },
   },
-  watch: {
-    searchInput: function(newValue) {
-      console.log(this.fuse.search(newValue))
-    }
-  }
 }
 </script>
 

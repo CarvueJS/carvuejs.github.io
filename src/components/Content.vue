@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown'
 import 'highlight.js/styles/atom-one-dark.css'
 import 'github-markdown-css' // eslint-disable-line
 import Vue from 'vue'
@@ -17,7 +16,6 @@ const dynamicContent = file => () => import(`../../content/${file}.md`)
 export default {
   name: 'Content',
   components: {
-    VueMarkdown,
   },
   computed: {
     currentContentPage: function () {
