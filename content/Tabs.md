@@ -1,7 +1,7 @@
 
-# The name of component
+# Tabs
 
-**Component** is XXXXXXX
+**Tabs** are used to quickly navigate between views within the same context.
 
 
 ## Examples

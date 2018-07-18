@@ -1,7 +1,7 @@
 
-# The name of component
+# Notification
 
-**Component** is XXXXXXX
+**Notifications** are messages that communicate information to the user.
 
 
 ## Examples

@@ -1,7 +1,7 @@
 
-# The name of component
+# File Uploader
 
-**Component** is XXXXXXX
+**File Uploader** allows the user to transfer a file or submit content of their own.
 
 
 ## Examples

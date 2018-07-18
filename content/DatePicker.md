@@ -1,7 +1,7 @@
 
-# The name of component
+# Date picker
 
-**Component** is XXXXXXX
+**Date and time pickers** allow users to select a single or a range of dates and times.
 
 
 ## Examples

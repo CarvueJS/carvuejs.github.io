@@ -1,7 +1,8 @@
 
-# The name of component
+# Dropdown
 
-**Component** is XXXXXXX
+**Dropdowns** present a list of options that can be used to filter existing content.
+
 
 
 ## Examples

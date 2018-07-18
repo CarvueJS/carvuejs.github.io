@@ -1,8 +1,7 @@
 
-# The name of component
+# Tile
 
-**Component** is XXXXXXX
-
+**Tiles** are flexible containers that house a variety of content.
 
 ## Examples
 

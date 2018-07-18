@@ -1,7 +1,7 @@
 
-# The name of component
+# Modal
 
-**Component** is XXXXXXX
+**Modals** communicate information via a secondary window and allow the user to maintain the context of a particular task. Use Modals sparingly because they interrupt user workflow.
 
 
 ## Examples

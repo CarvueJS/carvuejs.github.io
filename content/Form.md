@@ -1,7 +1,7 @@
 
-# The name of component
+# Form
 
-**Component** is XXXXXXX
+**Forms** are used for submitting data.
 
 
 ## Examples

@@ -1,7 +1,7 @@
 
-# The name of component
+# List
 
-**Component** is XXXXXXX
+**Lists** consist of related content grouped together and organized vertically.
 
 
 ## Examples

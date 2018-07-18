@@ -1,7 +1,7 @@
 
-# The name of component
+# Tag
 
-**Component** is XXXXXXX
+**Tags** are used for items that need to be labeled, categorized, or organized using keywords that describe them.
 
 
 ## Examples

@@ -1,7 +1,7 @@
 
-# The name of component
+# Structured list
 
-**Component** is XXXXXXX
+**Structured Lists** group content that is similar or related, such as terms or definitions.
 
 
 ## Examples

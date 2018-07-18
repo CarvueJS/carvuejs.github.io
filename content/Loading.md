@@ -1,7 +1,7 @@
 
-# The name of component
+# Loading
 
-**Component** is XXXXXXX
+**Loading** spinners are used when retrieving data or performing slow computations, and help to notify users that loading is underway.
 
 
 ## Examples

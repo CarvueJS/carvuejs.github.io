@@ -1,8 +1,7 @@
 
-# The name of component
+# Overflow menu
 
-**Component** is XXXXXXX
-
+**Overflow menu** is used when additional options are available to the user and there is a space constraint.
 
 ## Examples
 

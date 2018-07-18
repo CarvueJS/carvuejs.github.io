@@ -1,7 +1,7 @@
 
-# The name of component
+# Tooltip
 
-**Component** is XXXXXXX
+**Tooltip** provide additional information upon hover or focus. They often contain helper text that is contextual to an element.
 
 
 ## Examples

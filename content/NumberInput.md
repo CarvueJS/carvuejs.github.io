@@ -1,7 +1,7 @@
 
-# The name of component
+# Number input
 
-**Component** is XXXXXXX
+**Number inputs** are similar to text inputs, but contain controls used to increase or decrease an incremental value.
 
 
 ## Examples
