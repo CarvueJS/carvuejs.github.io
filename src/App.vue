@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Components/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Components from '@/views/Components.vue'
+import Frame from '@/views/Frame.vue'
 
 export default {
   name: 'app',
   components: {
-    Components,
+    Frame,
   },
 }
 </script>

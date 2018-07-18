@@ -1,67 +1,17 @@
 <template>
   <div>
-    <ca-layout wrap>
-      <ca-flex col="xs3 sm3 md3 lg3 xl3" class="slideMenu">
-        <SliderMenu />
-      </ca-flex>
-      <ca-flex col="xs9 sm9 md9 lg9 xl9" class="content">
-        <header class="pageHeader"></header>
-        <router-view/>
-        <footer class="pageFooter">
-          <p>Vanilla Components version 9.0.15</p>
-
-          <p>React Components version 6.5.2</p>
-
-          <p>Website last updated on June 20, 2018 at 12:00 AM</p>
-
-          <p>MIT</p>
-        </footer>
-      </ca-flex>
-    </ca-layout>
+    <header class="pageHeader"></header>
+    <router-view/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import SliderMenu from '@/components/SlideMenu.vue'
-import CodeSnippet from '@/components/CodeSnippet.vue'
-
 export default {
   name: 'components',
-  components: {
-    SliderMenu,
-    CodeSnippet,
-  },
-  data: () => ({
-    model: 100,
-  }),
 }
 </script>
 
 <style scoped>
-.slideMenu {
-  max-height: 100vh;
-  overflow: scroll;
-  border-right: 2px solid #f5f7fa;
-  background: #fff
-}
-
-.content {
-  max-height: 100vh;
-  overflow: scroll;
-  background: #fff;
-}
-
-.pageFooter {
-  background: #f4f7fb;
-  padding: 25px 100px;
-}
-
-.pageFooter p {
-  font-size: 10px;
-  margin: 5px 0;
-}
-
 .pageHeader {
   height: 150px;
   background: #f4f7fb;
