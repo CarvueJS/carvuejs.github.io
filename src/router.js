@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Frame from './views/Frame.vue'
 import Components from './views/Components.vue'
 import ComponentContent from './components/ComponentContent.vue'
+import GetStarted from './views/GetStarted.vue'
 
 Vue.use(Router)
 
@@ -16,7 +17,7 @@ export default new Router({
       children: [
         {
           path: 'component',
-          name: 'components',
+          name: 'component',
           component: Components,
           children: [
             {
@@ -25,6 +26,11 @@ export default new Router({
               component: ComponentContent,
             },
           ],
+        },
+        {
+          path: 'getStarted',
+          name: 'getStarted',
+          component: GetStarted,
         },
       ],
     },
