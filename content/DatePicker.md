@@ -13,7 +13,7 @@
 ### ca-date-picker props
 
 | Name | Type | default | required |
-| ------ | ----------- | ------ |
+| ------ | ----------- | ------ | ------ |
 | model   | any | null | yes |
 | errorMessage   | String | 'Invalid date format.' | no | 
 | placeholder   | String | 'mm/dd/yyyy' | no | 

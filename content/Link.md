@@ -10,13 +10,13 @@
 
 ## Props/Slots
 
-### component slot
+### ca-link props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| href   |  String | '#' | no | 
 
-### component props
+### ca-link slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

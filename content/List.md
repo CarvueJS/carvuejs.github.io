@@ -10,13 +10,13 @@
 
 ## Props/Slots
 
-### component slot
+### ca-list slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | ca-list-item | no |
 
-### component props
+### ca-link-item slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

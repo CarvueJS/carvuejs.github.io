@@ -10,14 +10,15 @@
 
 ## Props/Slots
 
-### component slot
+### ca-file-uploader props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   | any  | null | no | 
+| multiple   | Boolean  | false | no | 
+
+### ca-file-uploader slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
-
-### component props
-
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| default  | any | no |

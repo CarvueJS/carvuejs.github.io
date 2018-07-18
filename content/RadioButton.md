@@ -10,13 +10,24 @@
 
 ## Props/Slots
 
-### component slot
+### ca-radio slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | ca-radio-item | no |
 
-### component props
+### ca-radio-item props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   |  any | null | no |
+| inputValue   |  any | null | no | 
+| checked   | Boolean  | false | no | 
+| disable   | Boolean  | false | no | 
+| tabIndex   | Number  | 0 | no | 
+| radioID   | String  | '' | no | 
+
+### ca-radio-item slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

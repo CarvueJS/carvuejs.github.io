@@ -14,14 +14,25 @@
 
 ## Props/Slots
 
-### component slot
+### ca-notification-toast props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| error   |  Boolean | false | no |
+| info   | Boolean  | false | no |
+| success   | Boolean  | false | no |
+| warning   | Boolean  | false | no |
+| title   |  String |  | ’’ |
+| subtitle   |  String | ’’ | no | 
+| caption   | String  | ’’ | no | 
 
-### component props
+### ca-notification-inline props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| error   |  Boolean | false | no |
+| info   | Boolean  | false | no |
+| success   | Boolean  | false | no |
+| warning   | Boolean  | false | no |
+| title   | String  | ’’ | no |
+| subtitle   | String  | ’’ | no | 

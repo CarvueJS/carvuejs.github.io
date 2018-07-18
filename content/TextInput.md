@@ -10,14 +10,9 @@
 
 ## Props/Slots
 
-### component slot
+### ca-text-input props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
-
-### component props
-
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   | any  | null  | no | 
+| placeholder   | String  | ''  | no | 

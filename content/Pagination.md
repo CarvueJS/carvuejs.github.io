@@ -10,13 +10,21 @@
 
 ## Props/Slots
 
-### component slot
+### ca-pagination props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   | Number  | 1 | no |
+| prePage   | Number  | 5 | no | 
+| numberOfItems   | Number  | 100 | no | 
 
-### component props
+### ca-pagination-item props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| selected   | Boolean  | false | no | 
+
+### ca-pagination-item slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

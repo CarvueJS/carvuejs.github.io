@@ -10,13 +10,22 @@
 
 ## Props/Slots
 
-### component slot
+### ca-tag props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| ibm   | Boolean  | false | no |
+| beta   | Boolean  | false | no | 
+| thirdParty   | Boolean  | false | no | 
+| local   | Boolean  | false | no | 
+| dedicated   | Boolean  | false | no | 
+| custom   | Boolean  | false | no | 
+| experimental   | Boolean  | false | no | 
+| community   | Boolean  | false | no | 
+| private   | Boolean  | false | no | 
 
-### component props
+
+### ca-tag slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

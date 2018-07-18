@@ -9,13 +9,7 @@
 
 ## Props/Slots
 
-### component slot
-
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
-
-### component props
+### ca-tile slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

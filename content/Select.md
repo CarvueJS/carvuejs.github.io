@@ -10,13 +10,37 @@
 
 ## Props/Slots
 
-### component slot
+### ca-select props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   | any  | null | no | 
+
+### ca-select slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | ca-select-group / ca-select-item | no |
 
-### component props
+### ca-select-group props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| label   | String  | '' | no | 
+
+### ca-select-group slots
+
+| Name | Type | required |
+| ------ | ----------- | ------ |
+| default   | any | no |
+
+### ca-select-item props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   | any  | null | no | 
+
+### ca-select-item slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

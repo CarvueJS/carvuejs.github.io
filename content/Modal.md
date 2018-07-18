@@ -10,13 +10,18 @@
 
 ## Props/Slots
 
-### component slot
+### ca-modal props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| modalHeading   | String  | '' | no | 
+| modalLabel   | String | '' | no | 
+| primaryButtonText   | String  | '' | no | 
+| secondaryButtonText   | String  | '' | no | 
+| show   | Boolean  | false | no | 
+| danger   | Boolean  | false | no | 
 
-### component props
+### ca-modal slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

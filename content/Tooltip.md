@@ -10,13 +10,20 @@
 
 ## Props/Slots
 
-### component slot
+### ca-tooltip slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | any | no |
 
-### component props
+
+### ca-tooltip-label slots
+
+| Name | Type | required |
+| ------ | ----------- | ------ |
+| default   | any | no |
+
+### ca-tooltip-trigger slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

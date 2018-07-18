@@ -13,7 +13,7 @@
 ### ca-data-table props
 
 | Name | Type | default | required |
-| ------ | ----------- | ------ |
+| ------ | ----------- | ------ | ---- |
 | rows   | Array | [] | no |
 | header   | Array | [] | no | 
 

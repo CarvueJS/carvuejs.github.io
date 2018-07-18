@@ -10,7 +10,7 @@
           <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page">{{page}}</router-link></li>
         </ul>
       </ca-accordion-item>
-      <div class="slideMenu__item">ABOUT US</div>
+      <div class="slideMenu__item">Components Status</div>
     </ca-accordion>
   </div>
 </template>

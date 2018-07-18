@@ -9,14 +9,10 @@
 
 ## Props/Slots
 
-### component slot
+### ca-toggle props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
-
-### component props
-
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| model   |  any | null | no | 
+| left   | String  | 'Off' | no | 
+| right   | String  | 'On'  | no | 

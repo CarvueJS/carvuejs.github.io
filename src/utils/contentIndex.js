@@ -80,11 +80,6 @@ const componentList = [
     'content': 'Notification Content',
   },
   {
-    'name': 'Loading',
-    'title': 'Loading',
-    'content': 'Loading Content',
-  },
-  {
     'name': 'NumberInput',
     'title': 'NumberInput',
     'content': 'NumberInput Content',

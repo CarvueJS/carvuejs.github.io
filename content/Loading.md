@@ -20,14 +20,10 @@
 
 ## Props/Slots
 
-### component slot
+### ca-loading props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
-
-### component props
-
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| show   | Boolean  | true | no |
+| withoutOverlay   | Boolean  | false | no |
+| small   | Boolean  | false | no |
