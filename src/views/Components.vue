@@ -27,7 +27,7 @@ import SliderMenu from '@/components/SlideMenu.vue'
 import CodeSnippet from '@/components/CodeSnippet.vue'
 
 export default {
-  name: 'home',
+  name: 'components',
   components: {
     SliderMenu,
     CodeSnippet,

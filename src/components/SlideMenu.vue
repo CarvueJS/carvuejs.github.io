@@ -4,7 +4,7 @@
     <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
     <search></search>
     <ca-accordion>
-      <div class="slideMenu__item">GET STARTED</div>
+      <div class="slideMenu__item">Get Started</div>
       <ca-accordion-item title="Components" active>
         <ul class="slideMenu__item__list">
           <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page">{{page}}</router-link></li>
