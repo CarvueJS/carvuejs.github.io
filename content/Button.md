@@ -17,6 +17,7 @@
 | danger   | Boolean | false | no |
 | disable   | Boolean | false | no |
 | icon   | String | '' | no |
+| sm   | Boolean | false | no |
 
 ### ca-button slot
 

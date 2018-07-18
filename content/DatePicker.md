@@ -10,13 +10,17 @@
 
 ## Props/Slots
 
-### component slot
+### ca-date-picker props
 
-| Name | Type | required |
+| Name | Type | default | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| model   | any | null | yes |
+| errorMessage   | String | 'Invalid date format.' | no | 
+| placeholder   | String | 'mm/dd/yyyy' | no | 
+| pattern   | String | '{1,2}/{1,2}/{4}' | no | 
+| onUpdate   | Function | ()=>{}) | no | 
 
-### component props
+### ca-date-picker slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

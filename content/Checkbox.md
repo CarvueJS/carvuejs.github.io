@@ -13,10 +13,15 @@
 
 | Name | Type | default | required |
 | ------ | ----------- | ----| ---- |
-| noSlash   | Boolean | false | no |
+| inputValue  | Array | [] | no |
+| itemId     | String | '' | no |
+| itemValue     | String | '' | no |
+| mixed     | Boolean | false | no |
+| ariaChecked     | String | 'false' | no |
+| disable     | Boolean | false | no |
 
 ### ca-checkbox slot
 
 | Name | Type | required |
 | ------ | ----------- |  ---- |
-| default   | ca-breadcrumb-item | yes |
+| default   | any | yes |

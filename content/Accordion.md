@@ -16,8 +16,14 @@
 | ------ | ----------- | ------ |
 | default   | ca-accordion-item | no | 
 
-### ca-accordion-item
+### ca-accordion-item slet
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
 | default   | any | no |
+
+### ca-accordion-item props
+
+| Name | Type | default | required |
+| ------ | ----------- | ------ | -----|
+| title   | String | 'title' | no |

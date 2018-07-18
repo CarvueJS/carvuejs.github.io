@@ -19,10 +19,4 @@
 
 | Name | Type | required |
 | ------ | ----------- |  ---- |
-| default   | ca-breadcrumb-item | yes |
-
-### ca-breadcrumb-item
-
-| Name | Type | required |
-| ------ | ----------- | ----|
 | default   | any | yes |

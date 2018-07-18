@@ -10,13 +10,14 @@
 
 ## Props/Slots
 
-### component slot
+### ca-data-table props
 
-| Name | Type | required |
+| Name | Type | default | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| rows   | Array | [] | no |
+| header   | Array | [] | no | 
 
-### component props
+### ca-data-table slot
 
 | Name | Type | required |
 | ------ | ----------- | ------ |

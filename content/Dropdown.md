@@ -11,14 +11,26 @@
 
 ## Props/Slots
 
-### component slot
+### ca-dropdown props
+
+| Name | Type | default | required | 
+| ------ | ----------- | ------ | -----|
+| model   | any | null | no | 
+
+### ca-dropdown slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | ca-dropdown-item | yes |
 
-### component props
+### ca-dropdown-item props
+
+| Name | Type | default | required | 
+| ------ | ----------- | ------ | -----|
+| model   | String | '' | no | 
+
+### ca-dropdown-item slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | any | no |
+| default   | any | yes |
