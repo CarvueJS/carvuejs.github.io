@@ -6,7 +6,17 @@
 
 ## Examples
 
-<CodeSnippet codePenId="VBYOpp"></CodeSnippet>
+### with overlay
+
+<CodeSnippet codePenId="LBZBdG"></CodeSnippet>
+
+### small circle
+
+<CodeSnippet codePenId="ejzjMo"></CodeSnippet>
+
+### with a button trigger
+
+<CodeSnippet codePenId="LBZBmG"></CodeSnippet>
 
 ## Props/Slots
 

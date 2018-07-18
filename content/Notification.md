@@ -6,7 +6,11 @@
 
 ## Examples
 
-<CodeSnippet codePenId="VBYOpp"></CodeSnippet>
+### toast
+<CodeSnippet codePenId="KBMBYJ"></CodeSnippet>
+
+### inline
+<CodeSnippet codePenId="ZjOjNg"></CodeSnippet>
 
 ## Props/Slots
 

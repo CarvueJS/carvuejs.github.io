@@ -6,7 +6,7 @@
 
 ## Examples
 
-<CodeSnippet codePenId="VBYOpp"></CodeSnippet>
+<CodeSnippet codePenId="XBKPRd"></CodeSnippet>
 
 ## Props/Slots
 
