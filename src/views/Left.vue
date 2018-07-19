@@ -2,7 +2,7 @@
   <div class="slideMenu">
     <ca-layout wrap>
       <ca-flex col="xs3 sm3 md3 lg3 xl3" >
-       <img height="100px" src="../../public/icon.png">
+       <router-link to="/"><img height="100px" src="../../public/icon.png"></router-link>
       </ca-flex>
       <ca-flex class="slideMenu__logoText" col="xs5 sm5 md5 lg5 xl5">
         <p class="slideMenu__title">CarvueJS</p>
