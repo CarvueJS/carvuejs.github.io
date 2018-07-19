@@ -6,7 +6,7 @@
 
 ## Examples
 
-<CodeSnippet codePenId="qyNMar"></CodeSnippet>
+<Codepen codePenId="qyNMar"></Codepen>
 
 ## Props/Slots
 

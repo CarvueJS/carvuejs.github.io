@@ -8,15 +8,15 @@
 
 ### with overlay
 
-<CodeSnippet codePenId="LBZBdG"></CodeSnippet>
+<Codepen codePenId="LBZBdG"></Codepen>
 
 ### small circle
 
-<CodeSnippet codePenId="ejzjMo"></CodeSnippet>
+<Codepen codePenId="ejzjMo"></Codepen>
 
 ### with a button trigger
 
-<CodeSnippet codePenId="LBZBmG"></CodeSnippet>
+<Codepen codePenId="LBZBmG"></Codepen>
 
 ## Props/Slots
 

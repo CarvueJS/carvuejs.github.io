@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 
 Vue.use(Carvue)
 
-Vue.component('CodeSnippet', Codepen)
+Vue.component('Codepen', Codepen)
 
 new Vue({
   router,

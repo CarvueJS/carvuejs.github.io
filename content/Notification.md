@@ -7,10 +7,10 @@
 ## Examples
 
 ### toast
-<CodeSnippet codePenId="KBMBYJ"></CodeSnippet>
+<Codepen codePenId="KBMBYJ"></Codepen>
 
 ### inline
-<CodeSnippet codePenId="ZjOjNg"></CodeSnippet>
+<Codepen codePenId="ZjOjNg"></Codepen>
 
 ## Props/Slots
 

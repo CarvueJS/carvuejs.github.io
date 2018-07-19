@@ -5,7 +5,7 @@
 
 ## Examples
 
-<CodeSnippet codePenId="XBKPdm"></CodeSnippet>
+<Codepen codePenId="XBKPdm"></Codepen>
 
 ## Props/Slots
 
