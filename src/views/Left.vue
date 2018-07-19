@@ -4,13 +4,13 @@
     <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
     <search></search>
     <ca-accordion>
-      <div class="slideMenu__item"><router-link to="/GetStarted">Get Started</router-link></div>
+      <div class="slideMenu__item"><router-link to="/GetStarted" active-class="activeLink" class="inactiveLink">Get Started</router-link></div>
       <ca-accordion-item title="Components" active>
         <ul class="slideMenu__item__list">
-          <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page">{{page}}</router-link></li>
+          <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page" active-class="activeLink" class="inactiveLink">{{page}}</router-link></li>
         </ul>
       </ca-accordion-item>
-      <div class="slideMenu__item"><router-link to="/componentStatus">Components Status</router-link></div>
+      <div class="slideMenu__item"><router-link to="/componentStatus" active-class="activeLink" class="inactiveLink">Components Status</router-link></div>
     </ca-accordion>
   </div>
 </template>
@@ -37,6 +37,16 @@ export default {
 </script>
 
 <style scoped>
+.inactiveLink {
+  text-decoration: none;
+}
+
+.activeLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #3057d5
+}
+
 .slideMenu__title {
   font-size: 20px;
 }
