@@ -7,6 +7,9 @@
       <ca-flex class="slideMenu__logoText" col="xs5 sm5 md5 lg5 xl5">
         <p class="slideMenu__title">CarvueJS</p>
         <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
+        <a href="https://github.com/nicholaslee119/carbon-components-vue">
+          <img class="pageFooter__badges" src="https://img.shields.io/github/stars/nicholaslee119/carbon-components-vue.svg?style=social&label=Stars" />
+        </a>
       </ca-flex>
     </ca-layout>
     <search></search>
@@ -60,10 +63,11 @@ export default {
 
 .slideMenu__subTitle {
   font-size: 10px;
+  margin-bottom: 5px;
 }
 
 .slideMenu__logoText {
-  padding: 25px 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .slideMenu__item {
