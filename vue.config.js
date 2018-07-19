@@ -1,6 +1,6 @@
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production'
-    ? '/carvuejs-website/'
+    ? '/dist/carvuejs-website/'
     : '/',
   chainWebpack: config => {
     config.module
