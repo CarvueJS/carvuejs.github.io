@@ -1,7 +1,14 @@
 <template>
   <div class="slideMenu">
-    <p class="slideMenu__title">CarvueJS</p>
-    <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
+    <ca-layout wrap>
+      <ca-flex col="xs3 sm3 md3 lg3 xl3" >
+       <img height="100px" src="../../public/icon.png">
+      </ca-flex>
+      <ca-flex class="slideMenu__logoText" col="xs3 sm3 md3 lg3 xl3">
+        <p class="slideMenu__title">CarvueJS</p>
+        <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
+      </ca-flex>
+    </ca-layout>
     <search></search>
     <ca-accordion>
       <div class="slideMenu__item"><router-link to="/GetStarted" active-class="activeLink" class="inactiveLink">Get Started</router-link></div>
@@ -53,6 +60,10 @@ export default {
 
 .slideMenu__subTitle {
   font-size: 12px;
+}
+
+.slideMenu__logoText {
+  padding: 15px 10px;
 }
 
 .slideMenu__item {
