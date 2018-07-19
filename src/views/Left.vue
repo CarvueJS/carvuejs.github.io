@@ -4,7 +4,7 @@
       <ca-flex col="xs3 sm3 md3 lg3 xl3" >
        <img height="100px" src="../../public/icon.png">
       </ca-flex>
-      <ca-flex class="slideMenu__logoText" col="xs3 sm3 md3 lg3 xl3">
+      <ca-flex class="slideMenu__logoText" col="xs5 sm5 md5 lg5 xl5">
         <p class="slideMenu__title">CarvueJS</p>
         <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
       </ca-flex>
@@ -55,15 +55,15 @@ export default {
 }
 
 .slideMenu__title {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .slideMenu__subTitle {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .slideMenu__logoText {
-  padding: 15px 10px;
+  padding: 25px 10px;
 }
 
 .slideMenu__item {
