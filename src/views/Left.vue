@@ -4,13 +4,13 @@
     <p class="slideMenu__subTitle">Carbon Design in VueJS</p>
     <search></search>
     <ca-accordion>
-      <div class="slideMenu__item">Get Started</div>
+      <div class="slideMenu__item"><router-link to="/GetStarted">Get Started</router-link></div>
       <ca-accordion-item title="Components" active>
         <ul class="slideMenu__item__list">
           <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page">{{page}}</router-link></li>
         </ul>
       </ca-accordion-item>
-      <div class="slideMenu__item">Components Status</div>
+      <div class="slideMenu__item"><router-link to="/componentStatus">Components Status</router-link></div>
     </ca-accordion>
   </div>
 </template>
@@ -19,7 +19,7 @@
 // eslint-disable-next-line
 import { getNames } from '../utils/contentIndex'
 
-import search from './Search.vue'
+import search from '@/components/Search.vue'
 
 export default {
   name: 'slideMenu',

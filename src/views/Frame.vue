@@ -2,7 +2,7 @@
   <div>
     <ca-layout wrap>
       <ca-flex col="xs3 sm3 md3 lg3 xl3" class="slideMenu">
-        <SliderMenu />
+        <Left />
       </ca-flex>
       <ca-flex col="xs9 sm9 md9 lg9 xl9" class="content">
         <router-view/>
@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import SliderMenu from '@/components/SlideMenu.vue'
+import Left from './Left.vue'
 
 export default {
   name: 'frame',
   components: {
-    SliderMenu,
+    Left,
   },
 }
 </script>

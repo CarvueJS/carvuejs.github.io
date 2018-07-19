@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'components',
+  name: 'right',
 }
 </script>
 

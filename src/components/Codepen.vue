@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'codeSnippet',
+  name: 'codepen',
   props: {
     codePenId: {
       type: String,

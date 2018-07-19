@@ -2,14 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import Carvue from 'carvue'
-import CodeSnippet from '@/components/CodeSnippet.vue'
+import Codepen from '@/components/Codepen.vue'
 import 'carvue/dist/carvue.min.css'
 
 Vue.config.productionTip = false
 
 Vue.use(Carvue)
 
-Vue.component('CodeSnippet', CodeSnippet)
+Vue.component('CodeSnippet', Codepen)
 
 new Vue({
   router,
