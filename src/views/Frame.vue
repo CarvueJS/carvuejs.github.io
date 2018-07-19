@@ -7,10 +7,11 @@
       <ca-flex col="xs9 sm9 md9 lg9 xl9" class="content">
         <router-view/>
         <footer class="pageFooter">
-          <p>Vanilla Components version 9.0.15</p>
-          <p>React Components version 6.5.2</p>
-          <p>Website last updated on June 20, 2018 at 12:00 AM</p>
-          <p>MIT</p>
+          <p>The source code is licensed under MIT. </p>
+          <p>The website content is licensed under CC ANS 4.0.</p>
+          <a href="https://github.com/nicholaslee119/carbon-components-vue">
+            <img class="pageFooter__badges" src="https://img.shields.io/github/stars/nicholaslee119/carbon-components-vue.svg?style=social&label=Stars" />
+          </a>
         </footer>
       </ca-flex>
     </ca-layout>
@@ -44,11 +45,11 @@ export default {
 
 .pageFooter {
   background: #f4f7fb;
-  padding: 25px 100px;
+  padding: 25px 20px 200px 20px;
 }
 
 .pageFooter p {
-  font-size: 10px;
+  font-size: 12px;
   margin: 5px 0;
 }
 
@@ -56,5 +57,9 @@ export default {
   height: 150px;
   background: #f4f7fb;
   border-bottom: 1px solid #3057d5
+}
+
+.pageFooter__badges {
+  margin-top: 20px;
 }
 </style>
