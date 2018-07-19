@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Frame from './views/Frame.vue'
 import Right from './views/Right.vue'
 import Content from './components/Content.vue'
-// import GetStarted from './views/GetStarted.vue'
 
 Vue.use(Router)
 
@@ -33,7 +32,7 @@ export default new Router({
           children: [
             {
               path: ':name',
-              name: 'GetStarted',
+              name: 'normalContent',
               component: Content,
             },
           ],

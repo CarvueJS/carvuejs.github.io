@@ -20,7 +20,7 @@
           <li v-for="page in pages" :key="page"><router-link :to="'/component/'+page" active-class="activeLink" class="inactiveLink">{{page}}</router-link></li>
         </ul>
       </ca-accordion-item>
-      <div class="slideMenu__item"><router-link to="/componentStatus" active-class="activeLink" class="inactiveLink">Components Status</router-link></div>
+      <div class="slideMenu__item"><router-link to="/Ecosystem" active-class="activeLink" class="inactiveLink">Ecosystem</router-link></div>
     </ca-accordion>
   </div>
 </template>
