@@ -1,23 +1,24 @@
 
-# The name of component
+# Content switcher
 
-**Component** is XXXXXXX
+**Content switcher** manipulates the content shown following an exclusive or “either/or” pattern.
 
 
 ## Examples
 
-<Codepen codePenId="VBYOpp"></Codepen>
+<Codepen codePenId="zLKmJR"></Codepen>
 
 ## Props/Slots
 
-### component slot
+### ca-content-switcher slot
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | ca-accordion-item | no | 
+| default   | ca-content-switcher-button | no | 
 
-### component props
+### ca-content-switcher-button props
 
-| Name | Type | required |
-| ------ | ----------- | ------ |
-| default   | any | no |
+| Name | Type | default |required | 
+| ------ | ----------- | ------ | ---- |
+| selected   | Boolean | false | no |
+| switchValue   | String | '' | no |

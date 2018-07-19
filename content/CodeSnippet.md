@@ -1,23 +1,17 @@
 
-# Text input
+# Code snippet
 
-**Text inputs** enable the user to interact with and input data. Use when the application requires long-form content from the user.
+**Code snippet** are small blocks of reusable code that can be inserted in a code file.
 
 
 ## Examples
 
-<Codepen codePenId="VBYOpp"></Codepen>
+<Codepen codePenId="vaGMoP"></Codepen>
 
 ## Props/Slots
-
-### component props
-
-| Name | Type | default | required |
-| ------ | ----------- | ------ | -----|
-| default   |   |  | no | 
 
 ### component slots
 
 | Name | Type | required |
 | ------ | ----------- | ------ |
-| default   | any | no |
+| default   | plain text | no |
