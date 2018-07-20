@@ -17,8 +17,8 @@
             <img class="home__badges" src="https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master" />
           </a>
           <a href="https://github.com/nicholaslee119/carbon-components-vue">
-          <img class="home__badges" src="https://img.shields.io/github/stars/nicholaslee119/carbon-components-vue.svg?style=social&label=Stars" />
-        </a>
+            <img class="home__badges" src="https://img.shields.io/github/stars/nicholaslee119/carbon-components-vue.svg?style=social&label=Stars" />
+          </a>
         </div>
         <p class="home__logo__banner__title">Carvue is a UI components library which is based on Carbon-Design and VueJS with ❤️ </p>
         <ca-button class="home__logo__btn" icon="icon--power" primary><router-link to="/GetStarted">Get Started</router-link></ca-button>
