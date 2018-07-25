@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style>
+.home {
+  height: 100vh;
+}
+
 .home__logo {
   text-align: center;
 }
@@ -58,7 +62,7 @@ export default {
 }
 
 .home__logo__banner {
-  padding: 100px 0 400px 0;
+  padding: 100px 0 100px 0;
 }
 
 </style>
