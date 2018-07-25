@@ -1,7 +1,8 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/carvuejs-website/dist/'
-    : '/',
+  // baseUrl: process.env.NODE_ENV === 'production'
+  //   ? '/carvuejs-website/dist/'
+  //   : '/',
+  outputDir: 'docs',
   chainWebpack: config => {
     config.module
       .rule('md')
