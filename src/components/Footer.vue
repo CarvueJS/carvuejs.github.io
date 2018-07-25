@@ -6,17 +6,17 @@
       <a href="https://www.npmjs.com/package/carvue">
         <img class="pageFooter__badges" src="https://img.shields.io/npm/v/carvue.svg" />
       </a>
-      <a href="https://david-dm.org/nicholaslee119/carbon-components-vue?type=dev">
-        <img class="pageFooter__badges" src="https://david-dm.org/nicholaslee119/carbon-components-vue/dev-status.svg" />
+      <a href="https://david-dm.org/CarvueJS/carbon-components-vue?type=dev">
+        <img class="pageFooter__badges" src="https://david-dm.org/CarvueJS/carbon-components-vue/dev-status.svg" />
       </a>
-      <a href="https://coveralls.io/github/nicholaslee119/carbon-components-vue?branch=master">
-        <img class="pageFooter__badges" src=" https://coveralls.io/repos/github/nicholaslee119/carbon-components-vue/badge.svg?branch=master" />
+      <a href="https://coveralls.io/github/CarvueJS/carbon-components-vue?branch=master">
+        <img class="pageFooter__badges" src=" https://coveralls.io/repos/github/CarvueJS/carbon-components-vue/badge.svg?branch=master" />
       </a>
-      <a href=" https://travis-ci.org/nicholaslee119/carbon-components-vue">
-        <img class="pageFooter__badges" src="https://travis-ci.org/nicholaslee119/carbon-components-vue.svg?branch=master" />
+      <a href=" https://travis-ci.org/CarvueJS/carbon-components-vue">
+        <img class="pageFooter__badges" src="https://travis-ci.org/CarvueJS/carbon-components-vue.svg?branch=master" />
       </a>
-      <a href="https://github.com/nicholaslee119/carbon-components-vue">
-        <img class="pageFooter__badges" src="https://img.shields.io/github/stars/nicholaslee119/carbon-components-vue.svg?style=social&label=Stars" />
+      <a href="https://github.com/CarvueJS/carbon-components-vue">
+        <img class="pageFooter__badges" src="https://img.shields.io/github/stars/CarvueJS/carbon-components-vue.svg?style=social&label=Stars" />
       </a>
     </div>
   </footer>
