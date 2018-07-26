@@ -1,4 +1,4 @@
-# Ecosystem (WIP)
+# Ecosystem
 
 ## Carbon Design Kit
 
