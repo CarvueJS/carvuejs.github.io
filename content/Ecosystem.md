@@ -28,7 +28,7 @@
 ![snippets](https://raw.githubusercontent.com/CarvueJS/carvue-vscode-extension/master/assets/carvueSnippet.gif)
 
 
-### Carbon Design for ReactJS
+## Carbon Design for ReactJS
 
 💻 The Carbon Design in ReactJS
 
